@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := WP5
+PRODUCT_RELEASE_NAME := Wasp
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -8,11 +8,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := OUKITEL
-PRODUCT_DEVICE := WP5
-PRODUCT_MANUFACTURER := OUKITEL
-PRODUCT_MODEL := WP5
-PRODUCT_NAME := omni_WP5
+PRODUCT_BRAND := Nokia
+PRODUCT_DEVICE := Wasp
+PRODUCT_MANUFACTURER := Nokia
+PRODUCT_MODEL := Wasp
+PRODUCT_NAME := omni_Wasp
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
@@ -21,5 +21,5 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.allow.mock.location=0
     
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="OUKITEL/WP5_EEA/WP5:9/PPR1.180610.011/20191217:user/release-keys" \
-    PRIVATE_BUILD_DESC="full_d937-user 9 PPR1.180610.011 20191217 release-keys"
+    BUILD_FINGERPRINT="Nokia/Wasp_00WW/WSP_sprout:9/PPR1.180610.011/00WW_1_680:user/release-keys" \
+    PRIVATE_BUILD_DESC="full_wasp-user 9 PPR1.180610.011 4210 release-keys"
