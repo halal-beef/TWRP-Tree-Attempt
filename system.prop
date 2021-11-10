@@ -1,0 +1,5 @@
+ro.product.brand=nokia
+ro.product.name=Wasp
+ro.product.device=nokia
+ro.build.product=Wasp
+ro.treble.enabled=true
